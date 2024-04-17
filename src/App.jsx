@@ -4,22 +4,6 @@ import React, { useState, useEffect } from "react";
 import MovieCard from "./MovieCard"
 
 import SearchIcon from "./search.svg";
-
-/*const [counter, setCounter] = useState(0)
-
-useEffect(() => {
-  setCounter(100);
-}, [])
-
-return (
-
-  <div className="App">
-    <button onClick={() => setCounter((prevCount) => prevCount - 1)}>-</button>
-    <h2>{counter}</h2>
-    <button onClick={() => setCounter((nextCount) => nextCount + 1)}>+</button>
-  </div>
-); */
-
 const API_URL = 'http://www.omdbapi.com/?i=tt3896198&apikey=638a4275';
 
 const App = () => {
